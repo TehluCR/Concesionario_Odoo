@@ -3,33 +3,25 @@
     'name': "concesionario",
 
     'summary': """
-        Short (1 phrase/line) summary of the module's purpose, used as
-        subtitle on modules listing or apps.openerp.com""",
+        Arranque la gestión virtual de su concesionario y todo irá sobre ruedas. 
+        """,
 
     'description': """
-        Long description of module's purpose
-    """,
+        ¡Ahora 100% de eficiencia en 10 segundos!
+        Administración asistida.
+        ¿Le gusta gestionar?
+        Wir lieben Odoo.
+        """,
 
-    'author': "My Company",
-    'website': "http://www.yourcompany.com",
+    'author': "Perrogramadores",
+    'website': "localhost.com",
 
-    # Categories can be used to filter modules in modules listing
-    # Check https://github.com/odoo/odoo/blob/master/odoo/addons/base/module/module_data.xml
-    # for the full list
-    'category': 'Uncategorized',
+    'category': 'Ventas',
     'version': '0.1',
 
-    # any module necessary for this one to work correctly
     'depends': ['base'],
 
-    # always loaded
     'data': [
-        # 'security/ir.model.access.csv',
         'views/views.xml',
-        'views/templates.xml',
-    ],
-    # only loaded in demonstration mode
-    'demo': [
-        'demo/demo.xml',
     ],
 }
